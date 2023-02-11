@@ -16,10 +16,33 @@
     --heading-color: #3D150C;
 }
 
+/*Go Up Button CSS*/
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: var(--primary-color);
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 16px;
+    border-radius: 50%;
+  }
+  
+  .gotopbtn:hover {
+    color: var(--tertiary-color);
+    background: #dd9c5e;
+    transition: ease 0.5s;
+  }
+
 /*Navbar Page CSS*/
 
 header { 
     padding: 20px 60px 20px 60px;
+    position: sticky;
 }
 
 .hamburger {
@@ -157,6 +180,7 @@ color: var(--secondary-color);
     height: 100%;
     display: flex;
     flex-direction: row;
+    text-align: justify;
    
 }
 .video-cont {
@@ -1185,5 +1209,7 @@ footer {
         text-align: center;
         font-size: 12px;
     }
+
+      
     
 }
