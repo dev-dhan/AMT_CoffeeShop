@@ -13,18 +13,14 @@
 
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
-
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
 </head>
 
 <body>
     <!-- Header Starts here -->
     <header>
-        <div class="container-fluid" data-aos="fade-in">
+        <div class="container-fluid">
             <div class="nav-logo">
-                <img src="Images/AMT19.PNG" alt="">
+                <img src="Images/AMT19.PNG" alt="" >
             </div>
              <div class="hamburger">
                 <div class="line"></div>
@@ -58,7 +54,7 @@
     </header>
     
     <!-- welcome page starts here -->
-    <div class="welcome-page-con"  data-aos="fade-down"  data-aos-delay="300"  id="home">
+    <div class="welcome-page-con"  id="home">
         <div class="heading-con">
             <h2 class="welcome-">All Coffee Is Not</h2>
             <h1>Created Equal </h1>
@@ -74,20 +70,20 @@
     <!-- About us starts here -->
 
     <div class="about-us-con" id="about-us">
-        <div class="video-cont"  data-aos="fade">
+        <div class="video-cont">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lAd3LYIZMjs" 
             title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen></iframe>
         </div> 
-        <div class="about-us-content-con" data-aos="fade">
-            <div class="about-us-heading-con"  data-aos="fade"  data-aos-delay="300">
+        <div class="about-us-content-con" >
+            <div class="about-us-heading-con">
                 <div class="heading-line"></div>
                 <p class="title-heading">About Us</p>
                 <div class="heading-line"></div>
             </div>
-            <p class="sub-heading" data-aos="fade"  data-aos-delay="400">Our Story</p>
-            <p class="content-desc" data-aos="fade-right"  data-aos-delay="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quod, dolorem quos molestias, 
+            <p class="sub-heading">Our Story</p>
+            <p class="content-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quod, dolorem quos molestias, 
                 tempore quaerat numquam aperiam repellendus aspernatur error rerum debitis nihil nobis explicabo ducimus earum 
                 nostrum dolore necessitatibus.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quod, dolorem quos molestias, 
@@ -95,7 +91,7 @@
                 nostrum dolore necessitatibus.
             </p>
 
-            <p class="content-desc" data-aos="fade-left"  data-aos-delay="600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quod, dolorem quos molestias, 
+            <p class="content-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quod, dolorem quos molestias, 
                 tempore quaerat numquam aperiam repellendus aspernatur error rerum debitis nihil nobis explicabo ducimus earum 
                 nostrum dolore necessitatibus.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quod, dolorem quos molestias, 
@@ -103,20 +99,20 @@
                 nostrum dolore necessitatibus.
             </p>
             
-            <a href="#" class="button-link-about" data-aos="fade"  data-aos-delay="700"><button class="about-us-button">Read more</button></a>
+            <a href="#" class="button-link-about"><button class="about-us-button">Read more</button></a>
             
         </div>
     </div>
 
     <!--Best Seller Starts here-->
-    <div class="best-seller-con" id="best-seller" data-aos="fade">
+    <div class="best-seller-con" id="best-seller">
         <div class="best-seller-content-con">
             <div class="best-seller-heading-con">
                 <div class="heading-line"></div>
                 <p class="title-heading">Best Seller</p>
                 <div class="heading-line"></div>
             </div>
-            <p class="sub-heading" data-aos="fade">Our Best Offer</p>
+            <p class="sub-heading">Our Best Offer</p>
         </div>
 
         <div class="best-seller-product-con">
@@ -261,7 +257,7 @@
     </div>
 
     <!-- Our team Slider starts here -->
-    <div class="testimonial-con" data-aos="fade">
+    <div class="testimonial-con">
         <div class="testimonial-content-con">
             <div class="testimonial-heading-con">
                 <div class="heading-line"></div>
@@ -395,7 +391,7 @@
         </div>
     </div>
 
-    <div class="our-store-con" data-aos="fade" id="our-location"> 
+    <div class="our-store-con" id="our-location"> 
         <div class="out-store-content-con">
             <div class="out-store-heading-con">
                 <div class="heading-line"></div>
@@ -417,7 +413,7 @@
     </div>
     
     <!-- Email Us starts here-->
-    <div class="email-us-cont" data-aos="fade">
+    <div class="email-us-cont">
          <div class="email-us-content-con">
             <div class="email-us-heading-con">
                 <div class="heading-line"></div>
@@ -453,7 +449,7 @@
         </div>
     </div>
 
-    <footer data-aos="fade">
+    <footer>
         <p class="footer-header">ADSvanced Media Tech Coffee Shop</p>
         <p class="footer-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
             standard dummy text ever since the 1500s,</p>
@@ -470,19 +466,6 @@
     <script src="js/swiper-bundle.min.js"></script>
     <!-- JavaScript -->
     <script src="js/script.js"></script>
-    <!-- AOS JS -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <!-- BOOTSRAP JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-    <script>
-      AOS.init({
-        once: false,
-        duration: 1500,
-        easing: 'ease-in-out'
-      });
-    </script>
 </body>
 
 </html>
